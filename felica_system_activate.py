@@ -6,7 +6,6 @@ import pymysql.cursors
 import sys
 from DB_parameter import *
 
-print(HOST_IP_ADDRESS)
 def db_connect():
     #他の関数でも使用できるようにする
     global conn, cursor
